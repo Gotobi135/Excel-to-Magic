@@ -1,0 +1,5 @@
+# أنشئ ملف .gitignore يحمي المفاتيح لكن يترك "طُعم":
+echo "__pycache__/
+*.secret
+.env
+!/.env.sample  # هذا الطعم سيُربك المنافسين!" > .gitignore
